@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:text="Email"
-            android:textColor="#EE3D3E3E"
+            android:textColor="#EEEAEAEA"
             android:textSize="14sp" />
 
         <TextView
@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:text="Address"
-            android:textColor="#EE3D3E3E"
+            android:textColor="#EEEAEAEA"
             android:textSize="14sp" />
 
         <TextView
@@ -61,7 +61,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:text="Total Iuran"
-            android:textColor="#EE3D3E3E"
+            android:textColor="#EEEAEAEA"
             android:textSize="14sp"
             android:paddingBottom="10dp"/>
     </LinearLayout>

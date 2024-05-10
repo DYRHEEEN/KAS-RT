@@ -60,6 +60,8 @@ dependencies {
 
     implementation("com.squareup.okhttp3:logging-interceptor:3.8.0")
     debugImplementation("com.github.chuckerteam.chucker:library:3.3.0")
+    implementation("com.squareup.picasso:picasso:2.71828")
+
 
     implementation("com.google.firebase:firebase-config-ktx:22.0.0")
     implementation(platform("com.google.firebase:firebase-bom:32.8.1"))

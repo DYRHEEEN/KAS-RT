@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgrt"
+    android:background="#E6E6E6"
     android:visibility="visible"
     tools:context=".MenuActivity2">
 
@@ -12,12 +12,13 @@
         android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
         android:layout_gravity="center"
         android:layout_marginBottom="10dp"
-        android:text="KAS RT DDYYFE"
         android:fontFamily="serif"
+        android:text="KAS RT DDYYFE"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="#2E2E2E"
         android:textSize="30sp"
         android:textStyle="bold" />
 
@@ -25,15 +26,21 @@
         android:layout_width="match_parent"
         android:layout_height="500dp"
         android:layout_centerInParent="true"
-        android:orientation="horizontal">
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/bg_card_laporan"
+        android:orientation="horizontal"
+        android:padding="10dp">
 
         <LinearLayout
             android:id="@+id/cdMenu1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:onClick="onMenu1Clicked"
             android:background="@drawable/bg_card_view"
+            android:onClick="onMenu1Clicked"
             android:orientation="vertical">
 
             <ImageView
@@ -48,11 +55,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="serif"
-                android:text="KAS WARGA"
+                android:text="DATA WARGA"
                 android:textAlignment="center"
-                android:textColor="@android:color/white"
-                android:textSize="14dp"
-                android:textStyle="bold" />
+                android:textColor="@color/black"
+                android:textSize="11dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
         </LinearLayout>
 
         <LinearLayout
@@ -60,8 +68,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:onClick="onMenu2Clicked"
             android:background="@drawable/bg_card_view"
+            android:onClick="onMenu2Clicked"
             android:orientation="vertical">
 
             <ImageView
@@ -78,9 +86,10 @@
                 android:fontFamily="serif"
                 android:text="LAPORAN"
                 android:textAlignment="center"
-                android:textColor="@android:color/white"
-                android:textSize="14dp"
-                android:textStyle="bold" />
+                android:textColor="@color/black"
+                android:textSize="11dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
         </LinearLayout>
 
         <LinearLayout
@@ -88,8 +97,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:onClick="onMenu3Clicked"
             android:background="@drawable/bg_card_view"
+            android:onClick="onMenu3Clicked"
             android:orientation="vertical">
 
             <ImageView
@@ -106,9 +115,10 @@
                 android:fontFamily="serif"
                 android:text="NOTIFIKASI"
                 android:textAlignment="center"
-                android:textColor="@android:color/white"
-                android:textSize="14dp"
-                android:textStyle="bold" />
+                android:textColor="@color/black"
+                android:textSize="11dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
         </LinearLayout>
 
     </LinearLayout>
